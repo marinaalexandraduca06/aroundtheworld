@@ -1,0 +1,25 @@
+#globe{
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+h1{
+  color: #4d4dff;
+  margin: 0;
+}
+
+#logo-name{
+  position: absolute;
+  left: 3%;
+  top: 10%;
+  max-height: 100px;
+  width: 50%;
+}
+
+#not-connected, #connected{
+  position: absolute;
+  right: 3%;
+  top: 10%;
+}
