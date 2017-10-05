@@ -1,16 +1,16 @@
-#globe{
-  height: 100px;
-  width: 100px;
+#globe {
+  height: 60px;
+  width: 60px;
   float: left;
   margin: 0 10px 0 0;
 }
 
-h1{
-  color: #4d4dff;
+h1 {
+  color: black;
   margin: 0;
 }
 
-#logo-name{
+#logo-name {
   position: absolute;
   left: 3%;
   top: 10%;
@@ -18,8 +18,18 @@ h1{
   width: 50%;
 }
 
-#not-connected, #connected{
+#not-connected,
+#connected {
   position: absolute;
   right: 3%;
   top: 10%;
 }
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+

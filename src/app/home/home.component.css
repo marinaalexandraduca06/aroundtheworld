@@ -1,7 +1,16 @@
-app-top-bar{
+app-top-bar {
   position: fixed;
   height: 10%;
   width: 100%;
   top: 0;
   left: 0;
+}
+
+app-menu {
+  position: fixed;
+  height: 75%;
+  width: 30%;
+  top: 20%;
+  left: 0;
+  border-right: 2px solid black;
 }

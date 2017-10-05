@@ -1,0 +1,20 @@
+.option {
+  position: relative;
+  height: 12%;
+  display: block;
+  margin-top: 0;
+  margin: auto;
+}
+
+
+.option > a {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.option:hover {
+  background-color: #e6e6ff;
+}

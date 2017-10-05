@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import {TopBarComponent} from './home/topBar/topBar.component';
 import {HomeComponent} from './home/home.component';
 import {AppRoutingModule} from './app.routing';
+import {MenuComponent} from './home/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    TopBarComponent
+    TopBarComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

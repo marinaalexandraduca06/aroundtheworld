@@ -1,9 +1,17 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import { User } from './entities/user';
 
 @Component({
   templateUrl: 'home.component.html',
   styleUrls: ['home.component.css']
 })
 
-export class HomeComponent {}
+export class HomeComponent implements OnInit{
+  connectedUser: User;
+  option: number;
+
+  ngOnInit():void {
+
+  }
+}
 
