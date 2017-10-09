@@ -14,3 +14,13 @@ app-menu {
   left: 0;
   border-right: 2px solid black;
 }
+
+app-screen {
+  position: fixed;
+  height: 75%;
+  width: 65%;
+  top: 20%;
+  right: 4%;
+  left: 31%;
+  background-color: aqua;
+}
