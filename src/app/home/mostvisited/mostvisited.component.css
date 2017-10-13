@@ -1,30 +1,59 @@
+.popup {
+  position: fixed;
+  height: 70%;
+  width: 70%;
+  top: 15%;
+  left: 15%;
+  background-color: white;
+  border: 2px solid #404040;
+}
+
+.close {
+  cursor: pointer;
+  color: #404040;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 26px;
+  width: 26px;
+  padding: 0;
+  font-size: larger;
+  margin: 0;
+  background-color: #e6e6e6;
+  border-radius: 2px;
+}
+
+iframe {
+  height: 99.3%;
+  width: 99.7%;
+}
+
 .container {
-  background-color: red;
+
 }
 
 .single-destination {
-  background-color: blue;
+
 }
 
 .destination-name {
-  background-color: white;
   text-align: center;
   font-style: oblique;
 }
 
 .destination-desc {
-  background-color: green;
+  text-indent: 40px;
 }
 
 .destination-touristic-places-container {
-  background-color: #adc2eb;
   padding: 1px;
 }
 
 .destination-touristic-places {
-  background-color: #8c8c8c;
+
 }
 
-.place {
-  background-color: aqua;
+.place:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

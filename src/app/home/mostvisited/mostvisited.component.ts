@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
+import { links } from '../../enums/app.enums';
 
 @Component ({
   selector: 'app-most-visited',
@@ -6,4 +8,20 @@ import { Component } from '@angular/core';
   styleUrls: ['mostvisited.component.css']
 })
 
-export class MostvisitedComponent {}
+export class MostvisitedComponent implements OnInit{
+  visible: boolean;
+  link: string;
+
+  ngOnInit(): void {
+    this.visible = false;
+  }
+
+  show(ind: number): void{
+    this.visible = true;
+    this.link = links[0];
+  }
+
+  close(): void {
+    this.visible = false;
+  }
+}

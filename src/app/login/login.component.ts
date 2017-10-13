@@ -19,6 +19,6 @@ export class LoginComponent {
   login(): void {
     localStorage.setItem('curentUser', this.username);
     localStorage.setItem('isConnected', 'true');
-    this.router.navigate(['home']);
+    this.router.navigate(['']);
   }
 }
