@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit{
   connectedUser: User;
   option: number;
 
-  ngOnInit():void {
+  ngOnInit(): void {
 
   }
 }

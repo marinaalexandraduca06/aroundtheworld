@@ -4,15 +4,17 @@
   display: block;
   margin-top: 0;
   margin: auto;
+  cursor: pointer;
 }
 
 
-.option > a {
+.option > label {
   position: absolute;
   top: 35%;
   width: 100%;
   text-align: center;
-  color: black;
+  color: #404040;
+  cursor: pointer;
 }
 
 .option:hover {

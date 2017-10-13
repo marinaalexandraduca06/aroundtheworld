@@ -1,0 +1,30 @@
+.container {
+  background-color: red;
+}
+
+.single-destination {
+  background-color: blue;
+}
+
+.destination-name {
+  background-color: white;
+  text-align: center;
+  font-style: oblique;
+}
+
+.destination-desc {
+  background-color: green;
+}
+
+.destination-touristic-places-container {
+  background-color: #adc2eb;
+  padding: 1px;
+}
+
+.destination-touristic-places {
+  background-color: #8c8c8c;
+}
+
+.place {
+  background-color: aqua;
+}

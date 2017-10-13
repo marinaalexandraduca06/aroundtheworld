@@ -1,11 +1,12 @@
 <div id="logo-name">
-  <h1><img src="./globe.jpeg" id="globe" />Destinatii turistice</h1>
+  <img src="/assets/globe.png" id="globe" />
+  <h1>Around the world</h1>
 </div>
 <div id="not-connected" *ngIf="!connected">
   <ul id='lista'>
-    <a routerLink="/login" style="text-indent: 4px;">Log in</a>
+    <a [routerLink]="['login']" style="text-indent: 4px;">Log in</a>
     <a style="text-indent: 4px;"> | </a>
-    <a href="../SignUpPage/SignUpPageHTML.html">Sign up</a>
+    <a [routerLink]="['signup']">Sign up</a>
   </ul>
 </div>
 <div id="connected" *ngIf="connected">

@@ -6,8 +6,11 @@
 }
 
 h1 {
+  position: absolute;
   color: black;
   margin: 0;
+  bottom:10px;
+  left: 70px;
 }
 
 #logo-name {

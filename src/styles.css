@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+
+.text-field {
+  background-color: azure;
+  width: 200px;
+  margin-left: 10px;
+  padding: 3px;
+  text-decoration-color: #8c8c8c;
+  font-size: small;
+  font-style: italic;
+}
+
+.form-title {
+  text-align: center;
+  margin: 40px 0;
+  color: #404040;
+}
+
+.form {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.form-field {
+  margin: 40px 0;
+  color: #404040;
+}
+
+.button {
+  height: 30px;
+  width: 130px;
+  font-size: small;
+  cursor: pointer;
+  color: #404040;
+  margin-top: 30px;
+}
+
+.window{
+  position: relative;
+  height: 60%;
+  width: 40%;
+  top: 100px;
+  left: 30%;
+  background-color: #c2d1f0;
+  border: 1px solid #adc2eb;
+  border-radius: 25px;
+  box-shadow: 7px 7px #ebf0fa;
+}
+
+.active {
+  background-color: #c2d1f0;
+}

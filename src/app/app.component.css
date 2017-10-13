@@ -1,0 +1,16 @@
+app-top-bar {
+  background: linear-gradient(#c2d1f0, #ebf0fa, white);
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  position: fixed;
+  height: 90%;
+  width: 100%;
+  top: 10%;
+  left: 0;
+}
