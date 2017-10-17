@@ -1,6 +1,6 @@
 <div class="popup" *ngIf="visible">
   <button class="close" (click)="close()">X</button>
-  <iframe src="https://en.wikipedia.org/wiki/London_Eye"></iframe>
+  <iframe [src]='sanitizer.bypassSecurityTrustResourceUrl(link)'></iframe>
 </div>
 
 
@@ -16,8 +16,8 @@
     </p>
     <div class="destination-touristic-places-container">
       <ul class="destination-touristic-places">
-        <li class="place" (click)="show()">London Eye</li>
-        <li class="place" (click)="show()">Tower Bridge</li>
+        <li class="place" (click)="show(0)">London Eye</li>
+        <li class="place" (click)="show(1)">Tower Bridge</li>
         <li class="place" (click)="show()">Turnul Londrei</li>
       </ul>
     </div>
