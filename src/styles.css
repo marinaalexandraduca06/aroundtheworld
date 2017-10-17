@@ -2,10 +2,10 @@
 
 
 .window{
-  position: relative;
+  position: absolute;
   height: 60%;
   width: 40%;
-  top: 100px;
+  top: 20%;
   left: 30%;
   background-color: #c2d1f0;
   border: 1px solid #adc2eb;
@@ -21,16 +21,26 @@
 }
 
 .form {
+  position: relative;
   width: 100%;
-  margin-top: 15%;
+  height: 80%;
+}
+
+.form-content {
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  top: 15%;
 }
 
 .form-field {
-  position: relative;
   width: 100%;
+  height: 33%;
   color: #404040;
   text-align: center;
-  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
