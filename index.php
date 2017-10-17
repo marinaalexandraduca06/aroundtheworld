@@ -1,3 +1,3 @@
 
 <?php
-header('Location: home/aboutus');
+header('Location: ./src/index.html');
