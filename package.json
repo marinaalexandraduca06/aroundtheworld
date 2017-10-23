@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start": "ng serve"
+    "postinstall": "ng build --aot -prod",
+    "start": "node Server.js"
   },
   "private": true,
   "dependencies": {
@@ -25,7 +26,8 @@
     "core-js": "^2.4.1",
     "express": "^4.16.2",
     "rxjs": "^5.4.2",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+    "angular-cli": "1.0.0-beta.28.3"
   },
   "devDependencies": {
     "@angular/cli": "1.4.4",
