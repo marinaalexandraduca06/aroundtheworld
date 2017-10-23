@@ -15,5 +15,5 @@ app-menu {
   right: 4%;
   left: 31%;
   padding: 20px;
-  overflow: scroll;
+  overflow: auto;
 }

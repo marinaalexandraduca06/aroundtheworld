@@ -60,6 +60,19 @@
   font-size: small;
   cursor: pointer;
   color: #404040;
+  margin-top: 1%;
+}
+
+.window{
+  position: relative;
+  height: 60%;
+  width: 40%;
+  top: 100px;
+  left: 30%;
+  background-color: #c2d1f0;
+  border: 1px solid #adc2eb;
+  border-radius: 25px;
+  box-shadow: 7px 7px #ebf0fa;
 }
 
 .active {
