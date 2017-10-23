@@ -1,2 +1,2 @@
 <?php
-header('Location: ./src/main.ts');
+header('Location: ./src/app/app.component.html');
