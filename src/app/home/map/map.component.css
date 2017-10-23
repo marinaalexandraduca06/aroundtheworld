@@ -1,5 +1,11 @@
-#map {
-  width: 850px;
+
+.map-container {
+  width: 90%;
+  height: 90%;
+}
+
+.map-image {
+  width: 950px;
   height: auto;
-  margin: 40px 100px;
+  margin: 0;
 }

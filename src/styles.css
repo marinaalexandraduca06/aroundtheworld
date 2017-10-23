@@ -69,12 +69,12 @@
   width: 40%;
   top: 100px;
   left: 30%;
-  background-color: #c2d1f0;
+  background-color: #b3b3ff;
   border: 1px solid #adc2eb;
   border-radius: 25px;
-  box-shadow: 7px 7px #ebf0fa;
+  box-shadow: 7px 7px #e6e6ff;
 }
 
 .active {
-  background-color: #c2d1f0;
+  background-color: #b3b3ff;
 }
