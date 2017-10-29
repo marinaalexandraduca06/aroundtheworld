@@ -21,7 +21,6 @@ export class SignupComponent implements OnInit {
     private router: Router
   ) { }
 
-
   public ngOnInit(): void {
     this.noUsername = false;
     this.noPassword = false;
