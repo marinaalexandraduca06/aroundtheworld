@@ -8,13 +8,13 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 
 export class SignupComponent implements OnInit {
-  private username: string;
-  private password: string;
-  private confirmPassword: string;
-  private noUsername: boolean;
-  private noPassword: boolean;
-  private noConfirmPassword: boolean;
-  private passwordsDoNotCoincide: boolean;
+  public username: string;
+  public password: string;
+  public confirmPassword: string;
+  public noUsername: boolean;
+  public noPassword: boolean;
+  public noConfirmPassword: boolean;
+  public passwordsDoNotCoincide: boolean;
 
   constructor(
     private route: ActivatedRoute,
