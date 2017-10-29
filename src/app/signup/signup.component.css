@@ -6,5 +6,10 @@ h2 {
 }
 
 .form-field {
-  height: 25%;
+  height: 20%;
+}
+
+#error-message {
+  color: red;
+  font-style: italic;
 }

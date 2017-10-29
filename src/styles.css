@@ -28,19 +28,27 @@
 
 .form-content {
   position: absolute;
-  height: 70%;
+  height: 65%;
   width: 100%;
   top: 15%;
 }
 
 .form-field {
   width: 100%;
-  height: 33%;
+  height: 25%;
   color: #404040;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.form-footer {
+  position: absolute;
+  bottom: 5%;
+  height: 10%;
+  width: 100%;
+  text-align: center;
 }
 
 
@@ -77,4 +85,8 @@
 
 .active {
   background-color: #b3b3ff;
+}
+
+.empty-field-error {
+  border: 1.5px solid red;
 }

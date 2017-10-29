@@ -1,3 +1,12 @@
+app-top-bar {
+  background: linear-gradient(#b3b3ff,#e6e6ff, white);
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
 app-menu {
   position: fixed;
   height: 75%;

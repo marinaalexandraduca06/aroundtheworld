@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit } from '@angular/core';
 import { User } from './entities/user';
 
 @Component({
@@ -7,11 +7,9 @@ import { User } from './entities/user';
 })
 
 export class HomeComponent implements OnInit{
-  connectedUser: User;
-  option: number;
 
-  ngOnInit(): void {
-
+  public ngOnInit(): void {
+    //
   }
 }
 
