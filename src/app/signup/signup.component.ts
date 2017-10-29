@@ -61,7 +61,7 @@ export class SignupComponent implements OnInit {
     }
   }
 
-  private signup(): void {
+  public signup(): void {
     this.checkForUsername();
     this.checkForPassword();
     this.checkForConfirmPassword();
