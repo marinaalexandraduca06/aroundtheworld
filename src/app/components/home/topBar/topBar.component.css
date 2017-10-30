@@ -18,7 +18,7 @@ h1 {
   left: 3%;
   top: 10%;
   max-height: 100px;
-  width: 50%;
+  width: 350px;
 }
 
 #not-connected,
@@ -41,4 +41,8 @@ a:hover {
   position: absolute;
   right: 0;
   text-decoration: underline;
+}
+
+#username {
+  margin-bottom: 0; 
 }

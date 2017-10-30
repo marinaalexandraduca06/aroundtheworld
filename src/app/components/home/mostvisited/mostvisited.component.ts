@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { links } from '../../enums/app.enums';
-import {DomSanitizer} from "@angular/platform-browser";
+import { links } from '../../../app.enums';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component ({
   selector: 'app-most-visited',
@@ -20,6 +20,7 @@ export class MostvisitedComponent implements OnInit{
   }
 
   show(ind: number): void{
+    console.log(links);
     this.visible = true;
     this.link = links[ind];
     console.log(this.link);

@@ -13,6 +13,6 @@
 <div class="option" id='o5' routerLink="contact" routerLinkActive="active">
   <label>Contact</label>
 </div>
-<div *ngIf="isConnected" class="option" id="o6" routerLink="myprofile" routerLinkActive="active">
+<div *ngIf="userSVC.isConnected" class="option" id="o6" routerLink="myprofile" routerLinkActive="active">
   <label>My profile</label>
 </div>

@@ -1,5 +1,4 @@
 import {Component, OnInit } from '@angular/core';
-import { User } from './entities/user';
 
 @Component({
   templateUrl: 'home.component.html',
@@ -8,6 +7,7 @@ import { User } from './entities/user';
 
 export class HomeComponent implements OnInit{
 
+  public isConnected: boolean;
   public ngOnInit(): void {
     //
   }

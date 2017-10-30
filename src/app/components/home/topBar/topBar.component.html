@@ -1,15 +1,15 @@
 <div id="logo-name">
-  <img src="/assets/globe.png" id="globe" />
+  <img src="assets/globe.png" id="globe" />
   <h1>Around the world</h1>
 </div>
-<div id="not-connected" *ngIf="!isConnected">
+<div id="not-connected" *ngIf="!userSVC.isConnected">
   <ul id='lista'>
     <a routerLink="../login" style="text-indent: 4px;">Log in</a>
     <a style="text-indent: 4px;"> | </a>
     <a routerLink="../signup">Sign up</a>
   </ul>
 </div>
-<div id="connected" *ngIf="isConnected">
-  <p id='username'>Hello, {{connectedUser}}</p>
+<div id="connected" *ngIf="userSVC.isConnected">
+  <p id='username'>Hello, {{userSVC.connectedUser}}</p>
   <a (click)="logout()" id='logout'>Log out</a>
 </div>

@@ -1,16 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
-
 .window{
   position: absolute;
   height: 60%;
   width: 40%;
   top: 20%;
   left: 30%;
-  background-color: #c2d1f0;
+  background-color: #b3b3ff;
   border: 1px solid #adc2eb;
   border-radius: 25px;
-  box-shadow: 7px 7px #ebf0fa;
+  box-shadow: 7px 7px #e6e6ff;
 }
 
 .form-title {
@@ -69,18 +68,6 @@
   cursor: pointer;
   color: #404040;
   margin-top: 1%;
-}
-
-.window{
-  position: relative;
-  height: 60%;
-  width: 40%;
-  top: 100px;
-  left: 30%;
-  background-color: #b3b3ff;
-  border: 1px solid #adc2eb;
-  border-radius: 25px;
-  box-shadow: 7px 7px #e6e6ff;
 }
 
 .active {

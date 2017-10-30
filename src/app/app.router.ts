@@ -1,15 +1,16 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './login/login.component';
-import { SignupComponent } from './signup/signup.component';
-import { AboutusComponent } from './home/aboutus/aboutus.component';
-import { MostvisitedComponent } from './home/mostvisited/mostvisited.component';
-import { MapComponent } from './home/map/map.component';
-import { ContactComponent } from './home/contact/contact.component';
-import { SuggestComponent } from './home/suggest/suggest.component';
-import { MyprofileComponent } from './home/myprofile/myprofile.component';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { AboutusComponent } from './components/home/aboutus/aboutus.component';
+import { MostvisitedComponent } from './components/home/mostvisited/mostvisited.component';
+import { MapComponent } from './components/home/map/map.component';
+import { ContactComponent } from './components/home/contact/contact.component';
+import { SuggestComponent } from './components/home/suggest/suggest.component';
+import { MyprofileComponent } from './components/home/myprofile/myprofile.component';
+import { AdminComponent } from './components/admin/admin.component.';
 
 const router: Routes = [
   {
@@ -59,6 +60,10 @@ const router: Routes = [
   {
     path: 'signup',
     component: SignupComponent
+  },
+  {
+    path: 'admin',
+    component: AdminComponent
   }
 ];
 
