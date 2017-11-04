@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { links } from '../../../app.enums';
+import { links } from '../../../enums/app.enums';
 import { DomSanitizer } from '@angular/platform-browser';
 
 @Component ({

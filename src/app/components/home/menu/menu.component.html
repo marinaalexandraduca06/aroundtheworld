@@ -1,18 +1,18 @@
 <div class="option" id='o1' routerLink="aboutus" routerLinkActive="active">
-  <label>About us</label>
+  <label>{{ 'about_us' | translate }}</label>
 </div>
 <div class="option" id='o2' routerLink="mostvisited" routerLinkActive="active">
-  <label>Most visited</label>
+  <label>{{ 'tops' | translate }}</label>
 </div>
-<div class="option" id='o3' routerLink="map" routerLinkActive="active">
-  <label>Map</label>
+<div class="option" id='o3' routerLink="alldestinations" routerLinkActive="active">
+  <label>{{ 'all_destinations' | translate }}</label>
 </div>
 <div class="option" id='o4' routerLink="suggest" routerLinkActive="active">
-  <label>Suggest a destination</label>
+  <label>{{ 'sugest_destination' | translate }}</label>
 </div>
 <div class="option" id='o5' routerLink="contact" routerLinkActive="active">
-  <label>Contact</label>
+  <label>{{ 'contact' | translate }}</label>
 </div>
 <div *ngIf="userSVC.isConnected" class="option" id="o6" routerLink="myprofile" routerLinkActive="active">
-  <label>My profile</label>
+  <label>{{ 'my_profile' | translate }}</label>
 </div>

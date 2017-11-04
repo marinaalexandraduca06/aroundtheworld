@@ -6,11 +6,11 @@ import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { AboutusComponent } from './components/home/aboutus/aboutus.component';
 import { MostvisitedComponent } from './components/home/mostvisited/mostvisited.component';
-import { MapComponent } from './components/home/map/map.component';
 import { ContactComponent } from './components/home/contact/contact.component';
 import { SuggestComponent } from './components/home/suggest/suggest.component';
 import { MyprofileComponent } from './components/home/myprofile/myprofile.component';
 import { AdminComponent } from './components/admin/admin.component.';
+import { AllDestinationsComponent } from './components/home/all-destinations/all-destinations.component';
 
 const router: Routes = [
   {
@@ -36,8 +36,8 @@ const router: Routes = [
         component: MostvisitedComponent
       },
       {
-        path: 'map',
-        component: MapComponent
+        path: 'alldestinations',
+        component: AllDestinationsComponent
       },
       {
         path: 'contact',

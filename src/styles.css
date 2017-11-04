@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
+.center {
+  text-align: center;
+}
+
 .window{
   position: absolute;
   height: 60%;
@@ -76,4 +80,46 @@
 
 .empty-field-error {
   border: 1.5px solid red;
+}
+
+.top-bar-dropdown {
+  position: fixed;
+  right: 250px;
+  top: 10px;
+}
+
+.arrow-img {
+  position: absolute;
+  height: 10px;
+  right: 10px;
+  top: 10px;
+}
+
+.arrow-img:hover {
+  cursor: pointer;
+}
+
+.dropdown-header {
+  background-color: white;
+  border: 1px solid black;
+  width: 150px;
+  margin: 0;
+}
+
+.dropdown-body {
+  background-color: white;
+  border: 1px solid black;
+  margin: 0;
+  width: 150px;
+  max-height: 100px;
+  overflow: auto;
+}
+
+.dropdown-line-content {
+  margin: 5px 10px;
+}
+
+.dropdown-body > .dropdown-line-content:hover {
+  background-color: #e6e6ff;
+  cursor: pointer;
 }

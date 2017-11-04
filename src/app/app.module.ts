@@ -14,13 +14,16 @@ import { SignupComponent } from './components/signup/signup.component';
 
 import { AboutusComponent } from './components/home/aboutus/aboutus.component';
 import { MostvisitedComponent } from './components/home/mostvisited/mostvisited.component';
-import { MapComponent } from './components/home/map/map.component';
 import { ContactComponent } from './components/home/contact/contact.component';
 import { SuggestComponent } from './components/home/suggest/suggest.component';
 import { MyprofileComponent } from './components/home/myprofile/myprofile.component';
 import { UserService } from './services/user.service';
 import { AdminLoginComponent } from './components/admin/admin-login/admin-login.component';
 import { AdminComponent } from './components/admin/admin.component.';
+import { TranslatePipe } from './pipes/translate.pipe';
+import { TranslateService } from './services/translate.service';
+import { DropdownComponent } from './components/shared/dropdown/dropdown.component';
+import { AllDestinationsComponent } from './components/home/all-destinations/all-destinations.component';
 
 @NgModule({
   declarations: [
@@ -34,18 +37,20 @@ import { AdminComponent } from './components/admin/admin.component.';
     AdminComponent,
     AdminLoginComponent,
     AboutusComponent,
-    MapComponent,
+    AllDestinationsComponent,
     MostvisitedComponent,
     ContactComponent,
     SuggestComponent,
-    MyprofileComponent
+    MyprofileComponent,
+    TranslatePipe,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     routes
   ],
-  providers: [UserService],
+  providers: [UserService, TranslateService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,21 @@
+<div class="continent" *ngFor="let continent of continents">
+  <p>
+    <img [src]="arrowImgPath" class="arrow-img" (click)="displayOrHideDropdownBody()"> {{ continent }}
+  </p>
+  <div class="country" *ngFor="let country of countries[continent]">
+    <p>
+      <img [src]="arrowImgPath" class="arrow-img" (click)="displayOrHideDropdownBody()"> {{ country }}
+    </p>
+    <div class="city" *ngFor="let city of cities[country]">
+      <div class="destination" *ngFor="let destination of destinations">
+        <div *ngIf="destination.city === city && destination.country === country && destination.continent === continent">
+          <p>{{ destination.city }}, {{ destination.country }}</p>
+          <p>{{ destination.description }}</p>
+          <ul>
+            <li *ngFor="let touristicPlace of destination.touristicPlaces">{{ touristicPlace }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

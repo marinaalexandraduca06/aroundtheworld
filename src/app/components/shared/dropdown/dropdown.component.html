@@ -1,0 +1,13 @@
+<div class="dropdown-container">
+    <div class="dropdown-header">
+        <p class="dropdown-line-content">
+            {{ 'translate_site' | translate }}
+            <img [src]="arrowImgPath" class="arrow-img" (click)="displayOrHideDropdownBody()">
+        </p>
+    </div>
+    <div class="dropdown-body" *ngIf="displayDropdownBody">
+        <p class="dropdown-line-content center" *ngFor="let contentItem of dropdownContent" (click)="selectItem(contentItem)">
+            {{ contentItem }}
+        </p>
+    </div>
+</div>

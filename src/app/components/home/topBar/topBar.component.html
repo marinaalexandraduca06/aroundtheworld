@@ -2,14 +2,15 @@
   <img src="assets/globe.png" id="globe" />
   <h1>Around the world</h1>
 </div>
+<dropdown class="dropdown top-bar-dropdown"></dropdown>
 <div id="not-connected" *ngIf="!userSVC.isConnected">
   <ul id='lista'>
-    <a routerLink="../login" style="text-indent: 4px;">Log in</a>
+    <a routerLink="../login" style="text-indent: 4px;">{{ 'log_in' | translate }}</a>
     <a style="text-indent: 4px;"> | </a>
-    <a routerLink="../signup">Sign up</a>
+    <a routerLink="../signup">{{ 'sign_up' | translate }}</a>
   </ul>
 </div>
 <div id="connected" *ngIf="userSVC.isConnected">
-  <p id='username'>Hello, {{userSVC.connectedUser}}</p>
-  <a (click)="logout()" id='logout'>Log out</a>
+  <p id='username'>{{ 'hello' | translate }} {{userSVC.connectedUser}}</p>
+  <a (click)="logout()" id='logout'>{{ 'log_out' | translate }}</a>
 </div>

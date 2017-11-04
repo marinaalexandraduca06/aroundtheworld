@@ -12,7 +12,7 @@ export class MenuComponent implements OnInit {
   public connectedUser: string;
 
   constructor(
-    private userSVC: UserService
+    public userSVC: UserService
   ){}
 
   public ngOnInit(): void {

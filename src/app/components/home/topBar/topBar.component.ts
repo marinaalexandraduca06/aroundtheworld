@@ -17,7 +17,7 @@ export class TopBarComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private userSVC: UserService
+    public userSVC: UserService
   ) { }
 
   ngOnInit(): void {
